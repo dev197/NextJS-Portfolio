@@ -19,8 +19,15 @@ export default function Home() {
       </div>
 
       {/*mobile user interface*/}
-      <div className="md:hidden h-screen bg-center bg-cover" style={{ backgroundImage: "URL('/mobback.svg')" }}>
-        <Navbar />
+      <div className="md:hidden flex h-screen bg-center bg-cover" style={{ backgroundImage: "URL('/mobback.svg')" }}>
+        <div className="flex flex-col items-center justify-center h-screen">
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50">
+          <Navbar />
+          </div>
+          <div className="text-white text-4xl font-bold absolute left-1/2 top-1/4">
+            Welcome to my portfolio
+          </div>
+        </div>
       </div>
     </div>
 
