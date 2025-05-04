@@ -13,7 +13,7 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Portfolio-devv",
-  description: "",
+  description: "This is my portfolio. That is developed in next.js",
 };
 
 export default function RootLayout({ children }) {
